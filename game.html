@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Webpage for CSC102 F    a 2023
+Week 3
+written by: Sophia Abreu
+            sopabreu@uat.edu
+            18Sep2023-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophia's Game Page</title>
+    <script src="gameCode.js"></script>
+    <link href="craps.css" rel="stylesheet">
+   
+</head>
+<body>
+    <!--This is the heading yellow-->
+    <h1>The Dice Den</h1>
+    <!--This heading is going to be red-ish-->
+    <h3>WANT TO PLAY CRAPS??</h3>
+
+    <h4>THE RULES:</h4>
+       1. Roll two dice<br>
+        2. If the sum is 7 or 11, you lose!<br>
+        3. If the dice are equal to each other or even, you win!<br>
+
+        <br>
+     <h4>Press buttom to play craps:</h4>
+
+        DIE 1 RESULT:<div id="die1Res">Press Play Craps for result</div><br>
+        DIE 2 RESULT:<div id="die2Res">Press Play Craps for result</div><br>
+        SUM RESULT:<div id="sumRes">Press Play Craps for result</div><br>
+        FINAL RESULT:<div id="finalRes">Press Play Craps for result</div><br> 
+  
+   
+    <button onclick="playCraps()" id="button">
+        Play Craps
+    </button>
+ 
+</body>
+</html>
